@@ -50,7 +50,51 @@ body {
     border-radius: 5px;
     background: #FFF;
     width: 160px;
-height: 64px;
-flex-shrink: 0;
+    height: 64px;
+    flex-shrink: 0;
     border: 0px;
+}
+
+.previous-content {
+    display: flex;
+    padding: 50px 100px;
+    gap: 70px;
+}
+
+.child {
+    width: 50%;
+
+}
+
+.title-text {
+    margin-top: 300px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+    margin-bottom: 20px;
+}
+
+.title-depiction {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+ul>li {
+ 
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+}
+ul>li>i{
+    padding-right: 10px;
+    color: #005FAC;
+    font-weight: 400;
 }
