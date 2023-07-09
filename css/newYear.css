@@ -44,17 +44,25 @@ body {
 
 .btn-primary {
     color: #005FAC;
-    font-family: Work Sans;
     font-size: 20px;
     font-weight: 600;
     border-radius: 5px;
-    background: #FFF;
+    background-color: #FFF;
     width: 160px;
     height: 64px;
-    flex-shrink: 0;
-    border: 0px;
-}
-
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 95, 172, 0.5);
+  }
+  
 .previous-content {
     display: flex;
     padding: 50px 100px;
@@ -226,3 +234,25 @@ ul>li>i {
     outline: none;
     border-color: #55acee;
   }
+
+  .btn-secondary {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #005FAC;
+    width: 160px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #004c8c;
+  }
+  
+  .btn-secondary:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 95, 172, 0.5);
+  }
+  
