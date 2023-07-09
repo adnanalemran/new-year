@@ -206,7 +206,6 @@ ul>li>i {
 .input-box {
     width: 325px;
     height: 64px;
-    flex-shrink: 0;
     border-radius: 5px;
     background-color: #151414;
     color: #FFF;
@@ -215,4 +214,15 @@ ul>li>i {
     font-weight: 400;
     margin-bottom: 20px;
     margin-top: 40px;
-}
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .input-box::placeholder {
+    color: #a0a0a0;
+  }
+  
+  .input-box:focus {
+    outline: none;
+    border-color: #55acee;
+  }
