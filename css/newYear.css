@@ -138,7 +138,7 @@ ul>li>i {
     background-position: center;
     background-repeat: no-repeat;
     margin: 0px auto;
-   
+
 }
 
 .call-text {
@@ -148,10 +148,71 @@ ul>li>i {
     font-weight: 700;
     padding-bottom: 40px;
 }
-.call-content{
+
+.call-content {
     padding-top: 60px;
     padding-left: 63px;
 }
-.divisor-150{
+
+.divisor-150 {
     height: 150px;
+}
+
+.footer {
+    background: #151414;
+    color: #FFF;
+}
+
+.footer-container {
+    display: flex;
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.footer-child {
+    width: 50%;
+}
+
+.footer-title {
+    margin-top: 130px;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 15px;
+
+}
+
+.footer-depiction {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.social-icon>img {
+    padding: 10px;
+    margin-bottom: 130px;
+}
+
+.Subscribe {
+    margin-left: 200px;
+}
+
+.footer-title2 {
+    margin-top: 130px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.input-box {
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #151414;
+    color: #FFF;
+    border: 1px solid #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
